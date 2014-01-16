@@ -2,9 +2,18 @@
 
 <html>
 <head>
-	<title>HCI Project Portfolio</title>	
+	<title>HCI Project Portfolio</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/introHCI.css" rel="stylesheet">
+	...
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<!-- Include all compiled plugins (blelow), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
 	<!-- this is a comment in HTML -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -12,16 +21,22 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->        
+    <![endif]-->
 </head>
 
 <body>
 	<div>
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
+		<div class="container">
+		<div class="jumbotron">
+    <h1>Zayne Shen</h1>
+    <p>human-computer interaction &middot; user experience design &middot; design thinking</p>
+</div>
 		<div>
-			<h1>Michael Bernstein</h1>
-			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
+			<p>I am Zheng(Zayne) Shen, a young designer in the field of Human-Computer Interaction with mindset of Human-Centered Design. You can find my portfolio here  <a href="www.cosmiczayne.com">Cosmiczayne</a></p>
+			<p>
+I am curious about humans's needs, and fascinated by the wisdom in design to meet these needs. I did product design and vehicle design before, but now I have started focusing on interactive design when I realized that digital technology is changing people more interactively and intellectually. With immense passion and practical experience, I hope to utilize emerging technologies for human-centered interaction design, and bring convenience, joy and meaning to people's life.</p>
 		</div>
 
 
@@ -29,54 +44,73 @@
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-		<div id="project1">
+		<div class="row">
+		<div id="project1" class="project col-md-6">
 			<a href="project.html">
-				<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image">
+				<div class="image-holder">
+					<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image">
+				</div>
 				<p>Waiting in Line</p>
 			</a>
 		</div>
-		<div id="project2">
+		<div id="project2" class="project col-md-6">
 			<a href="project.html">
+				<div class="image-holder">
 				<img src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image">
+				</div
 				<p>Needfinding</p>
 			</a>
 		</div>
-		<div id="project3">
+		<div id="project3" class="project col-md-6">
 			<a href="project.html">
+				<div class="image-holder">
 				<img src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image">
+			</div>
 				<p>Prototyping</p>
 			</a>
 		</div>
-		<div id="project4">
+		<div id="project4" class="project col-md-6">
 			<a href="project.html">
+				<div class="image-holder">
 				<img src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image">
+			</div>
 				<p>Heuristic Evaluation</p>
 			</a>
 		</div>
-		<div id="project5">
+		<div id="project5" class="project col-md-6">
 			<a href="project.html">
+				<div class="image-holder">
 				<img src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image">
+			</div>
 				<p>Visualization</p>
 			</a>
 		</div>
-		<div id="project6">
+		<div id="project6" class="project col-md-6">
 			<a href="project.html">
+				<div class="image-holder">
 				<img src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image">
+			</div>
 				<p>Social design</p>
 			</a>
 		</div>
-		<div id="project7">
+		<div id="project7" class="project col-md-6">
 			<a href="project.html">
+				<div class="image-holder">
 				<img src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image">
+			</div>
 				<p>Gestural interaction</p>
 			</a>
 		</div>
-		<div id="project8">
+		<div id="project8" class="project col-md-6">
 			<a href="project.html">
+				<div class="image-holder">
 				<img src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image">
+			</div>
 				<p>Design tools</p>
 			</a>
 		</div>
 	</div>
+</div>
+</div>
 </body>
 </html>

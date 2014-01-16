@@ -5,7 +5,7 @@
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
-	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
 	color: #CC00AA;
 }
 
@@ -16,6 +16,26 @@ body {
      padding: 20px;
 }
 
+.container {
+     width: 980px;
+}
+
+.project .image-holder {
+     height: 248px;
+     display: block;
+     overflow: hidden;
+}
+
+
+.project img {
+     width: 100%;
+     transition: all 0.5s;
+}
+
+.project img:hover {
+     width: 104%;
+}
+
 .jumbotron {
 	position: relative;
 	background: none;
@@ -23,12 +43,12 @@ body {
 
 .jumbotron:after {
      content:"";
-     background: url("http://lorempixel.com/1140/283");
+     background: url("http://hci.stanford.edu/courses/cs147/2014/images/verplank.jpg");
      opacity: 0.2;
      top: 0;
      left: 0;
      bottom: 0;
      right: 0;
      position: absolute;
-     z-index: -1;	
+     z-index: -1;
 }
